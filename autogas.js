@@ -61,7 +61,7 @@ function showurl(datajson){
 		}
 		if (check == false) {
 			linktag[i].href = links[randindex] + setting.path + aesCrypto.encrypt(convertstr(linktag[i].href),convertstr('root'));
-			linktag[i].rel = "nofollow";
+			linktag[i].rel = "nofollow noreferrer noopener";
 			linktag[i].target = "_blank";
 		}
 	}	
