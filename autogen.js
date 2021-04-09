@@ -1,4 +1,3 @@
-<b:if cond='data:view.isPost'>
 //<![CDATA[
 
 $(document).ready(function(){
@@ -66,4 +65,3 @@ window.location.href=realurl;
 
 })
 //]]>
-</b:if>
