@@ -16,7 +16,7 @@ button#getlink,button#gotolink{padding: 5px 50px;
   border: 1px solid rgba(0,136,255, 0.5);}
 button#getlink:hover,button#gotolink:hover{
     background-color: #0088ff;
-	color:#fff;
+	color:#fff;}
 ===============================
 copy dibawah ]]></b:skin>
 ===============================
