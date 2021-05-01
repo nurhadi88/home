@@ -18,7 +18,7 @@ timer = $('#timer');
 
 if ($.urlParam('o') != null){
 timer.pietimer({
-timerSeconds: 10,
+timerSeconds: 15,
 color: '#3f51b5',
 fill: false,
 showPercentage: true,
@@ -31,7 +31,7 @@ timer.addClass('hidden');
 }
 
 function gotolinkcountdown(){
-var countDown = 5; // Ganti Waktu Muncul Tombol Disini Gan
+var countDown = 10; // Ganti Waktu Muncul Tombol Disini Gan
 gotolink.removeClass('hidden');
 var x = setInterval(function() {
 
