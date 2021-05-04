@@ -31,18 +31,17 @@ copy dibawah ]]></b:skin>
 ==============================
 copy diatas </body>
 ==============================
-<script src='https://cdn.statically.io/gh/nurhadi88/home/326ba7da/autogas.js'/>
-<script src='https://cdn.statically.io/gh/nurhadi88/home/b8c5394d/autogen.js'/>
-<script src='https://cdn.statically.io/gh/nurhadi88/home/b8c5394d/autotimer.js'/>
-
-<!-- WHITE LIST & AUTO GENERATE IS HERE -->
+<b:if cond='data:view.isSingleItem'>
+<script src='https://cdn.statically.io/gh/nurhadi88/home/cf964b4e/mainmin.min.js'/>
+<script src='https://cdn.statically.io/gh/nurhadi88/home/6e7615ee/limitersafelink.min.js'/>   
 <script type='text/javascript'>
 //<![CDATA[
 var setting = {
-  exceptionurl : "google.com,twitter.com,javascript(),youtube.com,facebook.com,instagram.com,whatsapp.com,wa.me",
+  exceptionurl : "facebook.com,t.me,t.co,twitter.com,telegram.com,linkedin.com,tumblr.com,google.com,twitter.com,javascript(),youtube.com,facebook.com,instagram.com,whatsapp.com,wa.me,vm.tiktok.com/ZSJD63VxU",
  path : "#?o="
 };
 //]]>
 </script>
-<script src='https://www.blogger.com/feeds/xxxxxxxxxxxxxxxx/posts/default?alt=json-in-script&amp;max-results=1000&amp;callback=showurl'/>
-<!-- END OF WHITELIST & AUTO GENERATE SCRIPT -->
+<script src='https://cdn.statically.io/gh/nurhadi88/home/326ba7da/autogas.min.js'/>
+<script src='https://www.blogger.com/feeds/xxxxxxxxxxxxxxxxx/posts/default?alt=json-in-script&amp;max-results=1000&amp;callback=showurl'/>
+</b:if>
